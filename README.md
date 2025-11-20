@@ -35,13 +35,19 @@ pip install cryptography python-dotenv
 ```
 
 ## Setup & Running
-
-1. Start the server:
+1. Create a `.env` file with your encryption key (generated via `key.py`):
+```bash
+C2_SECRET_KEY=<your-generated-key>
+C2_SERVER_HOST=127.0.0.1
+C2_SERVER_PORT=9000
+SERVER_HOST=0.0.0.0
+SERVER_PORT=9000
+```
+2. Start the server:
 ```bash
  python server.py
 ```
-
-2. Start the Client:
+3. Start the Client:
 ```bash
  python client.py
 ```
