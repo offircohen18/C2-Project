@@ -1,26 +1,22 @@
-# --- Python ---
+# Python
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-*.sqlite3
-*.log
 
-# --- Virtual Environment ---
+# Virtual environments
 venv/
-ENV/
-env/
 .venv/
+env/
 
-# --- PyCharm / JetBrains ---
+# IDE / Editor
 .idea/
 *.iml
 
-# --- OS files ---
+# OS
 .DS_Store
 Thumbs.db
 
-# --- Output / build ---
+# Output / build
 dist/
 build/
 *.egg-info/
