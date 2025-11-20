@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# --- Virtual Environment ---
+venv/
+ENV/
+env/
+.venv/
+
+# --- PyCharm / JetBrains ---
+.idea/
+*.iml
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Output / build ---
+dist/
+build/
+*.egg-info/

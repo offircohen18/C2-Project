@@ -1,0 +1,5 @@
+# Treat all files as text (auto CRLF conversion)
+* text=auto
+
+# Don't touch binary files
+*.py binary
